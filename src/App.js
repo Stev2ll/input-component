@@ -152,7 +152,7 @@ function App() {
              />
           </div>
       <footer className='Pie'>
-         <h3>created by Stev2ll - devChallenges.io</h3>
+         <h3>created by Stev2ll-devChallenges.io</h3>s
       </footer>
       </main>
       

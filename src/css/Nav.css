@@ -1,0 +1,26 @@
+.Nav-main{  
+    background-color: #FAFBFD;
+    box-shadow: 10px 2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 2px 5px 0px rgba(0,0,0,0.75);
+}
+.MiLogo{
+    margin-top: 30px;
+    width: 150px;
+    margin-left: 25%;
+}
+.list-nav li{
+    list-style: none;
+    margin: 50px 0 30px 25%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #9E9E9E;
+    width: 100%;
+}
+li:hover{
+    color: black;
+}

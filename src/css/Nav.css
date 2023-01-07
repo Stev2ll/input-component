@@ -1,14 +1,46 @@
 .Nav-main{  
     background-color: #FAFBFD;
-    box-shadow: 10px 2px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 2px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 2px 5px 0px rgba(0,0,0,0.75);
 }
 .MiLogo{
     margin-top: 30px;
     width: 150px;
     margin-left: 25%;
 }
+img{
+    animation-duration: 3s;
+	animation-name: slidein;
+    cursor: pointer;
+}
+
+img:hover{
+    animation: myAnim 1s ease-out 0s infinite normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		transform: translate(0);
+	}
+
+	20% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, 2px);
+	}
+
+	80% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
 .list-nav li{
     list-style: none;
     margin: 50px 0 30px 25%;
@@ -20,7 +52,37 @@
     cursor: pointer;
     color: #9E9E9E;
     width: 100%;
+   
 }
 li:hover{
     color: black;
+    animation: Nav 4s ease 0s 2 normal forwards;;
+}
+
+@keyframes Nav {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
 }

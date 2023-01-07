@@ -8,7 +8,8 @@ import Input5 from './componentes/Input5'
 
 
 function App() {
-  return (
+   
+   return (
     <div className="App">
       <nav>
         <Navegador
@@ -19,7 +20,8 @@ function App() {
         />
       </nav>
       <main className='container-main'>
-          <h1 className='Title'>Inputs</h1>
+      <div className='container'>
+         <h1 className='Title'>Inputs</h1>
           <div className='row'>
              <Input clas = "Normal"
                 text="&lt;Input /&gt;"
@@ -147,9 +149,10 @@ function App() {
                 place="Placeholder"
              />
           </div>
-      <footer className='Pie'>
-         <h3>created by Stev2ll-devChallenges.io</h3>
-      </footer>
+         <footer className='Pie'>
+            <h3>created by Stev2ll-devChallenges.io</h3>
+         </footer>
+      </div>   
       </main>
       
    </div>

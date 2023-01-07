@@ -29,14 +29,12 @@ function App() {
              />
              <Input clas = "Hover"
                 text="&:hover"
-                style = "#828282"
                 label = "Label" labelcolor = "Color"
                 inputValue="text"
                 place="Placeholder"
              />
              <Input clas = "Tres"
                 text="&:focus"
-                style="#828282"
                 label="Label" labelcolor = "Color2"
                 inputValue="text"
                 place="Placeholder"
@@ -51,15 +49,14 @@ function App() {
              />
              <Input  clas = "Hover"
                 text="&:hover"
-                style = "#828282"
                 label = "Label"  labelcolor = "Color"
                 inputValue="text"
                 place="Placeholder"
              />
              <Input  clas = "Cuatro"
                 text="&:focus"
-                style="#828282"
-                label="Label"    labelcolor = "Color3"
+                label="Label" 
+                labelcolor = "Color3"
                 inputValue="text"
                 place="Placeholder"
              />
@@ -84,8 +81,8 @@ function App() {
              />
              <Input2 clas = "Hover"
                 text="&lt;Input helperText=”Some interesting text” error/&gt;"
-                style = "#828282"
-                label = "Label"  labelcolor = "Color3"
+                label = "Label"  
+                labelcolor = "Color3"
                 label2 = "Some interesting text" 
                 inputValue="text"
                 place="Placeholder"
@@ -101,8 +98,8 @@ function App() {
              />
              <Input4 clas = "Icons"
                 text="&lt;Input endIcon /&gt;"
-                style = "#828282"
-                label = "Label"  labelcolor = "Color3"
+                label = "Label"  
+                labelcolor = "Color3"
                 inputValue="text"
                 place="Placeholder"
              />
@@ -126,7 +123,6 @@ function App() {
              />
              <Input5 clas = "Tamaño2"
                 text="&lt;Input size=”md”/&gt;"
-                style = "#828282"
                 label = "Label"  labelcolor = "Color3"
                 inputValue="text"
                 place="Placeholder"
@@ -152,7 +148,7 @@ function App() {
              />
           </div>
       <footer className='Pie'>
-         <h3>created by Stev2ll-devChallenges.io</h3>s
+         <h3>created by Stev2ll-devChallenges.io</h3>
       </footer>
       </main>
       

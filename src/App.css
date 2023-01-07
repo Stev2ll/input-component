@@ -3,7 +3,7 @@
 
 }
 nav{
-  height: 215vh;
+  height: 237vh;
   width: 300px;
 }
 main{
@@ -38,4 +38,13 @@ main{
   line-height: 17px;
   text-align: center;
   color: #9E9E9E;
+}
+
+::-webkit-scrollbar{
+	background-color: rgb(255, 255, 255);
+  width: 12px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
 }
